@@ -1,0 +1,25 @@
+# Proyecto Cuadro de Mandos de Vehículos
+
+Este proyecto consiste en una aplicación web desarrollada con Streamlit que permite explorar y visualizar datos relacionados con anuncios de venta de vehículos en Estados Unidos. La aplicación utiliza datos almacenados en un archivo CSV llamado `vehicles_us.csv`.
+
+## Funcionalidades
+
+1. **Histograma de Odómetro:**
+   - Se puede generar un histograma interactivo para visualizar la distribución de los odómetros de los vehículos en el conjunto de datos.
+
+2. **Gráfico de Dispersión Año-Precio:**
+   - Permite construir un gráfico de dispersión interactivo que representa la relación entre el año de fabricación y el precio de los vehículos, con el color codificado por el tipo de combustible.
+
+## Instrucciones de Uso
+
+1. Clona este repositorio en tu máquina local.
+2. Crea y activa un entorno virtual utilizando Conda o virtualenv.
+3. Instala las dependencias del proyecto ejecutando `pip install -r requirements.txt`.
+4. Ejecuta la aplicación web con el comando `streamlit run app.py` desde la terminal.
+5. Abre el navegador y accede a la dirección proporcionada por Streamlit (generalmente http://localhost:8501/).
+
+¡Explora y disfruta visualizando los datos de manera interactiva con la aplicación web!
+
+## Autor
+
+Claudio Merino
